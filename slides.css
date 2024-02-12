@@ -1,0 +1,45 @@
+.carrosel {
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 200px;
+    width: auto;
+}
+.sliders {
+    display: flex;
+    transition: transform 1.5s ease-in-out;
+    transform: translate(0);
+}
+img{
+    object-fit: cover;
+    height: 200px;
+    width: 300px;
+}
+  
+  .botao{
+   
+    margin:auto;
+    color: #fff;
+    width:0;
+    height:0;
+    
+  }
+  
+  /* Aqui a mensagem ja está com o display none para já começar escondida*/
+  .mensagem{
+    color:#fff;
+    display:none;
+    position:fixed;
+    top:20px;
+    left:100%;
+    right: 20px;
+    margin: auto;
+    width:500px;
+    height:250px;
+    border:1px solid rgb(253, 255, 255);
+  
+  }
+
+
+
+
+  

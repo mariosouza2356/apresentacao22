@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', 'Segoe UI', sans-serif;
+    background-image:url(./imagens/fundo-de-textura-de-fibra-de-carbono-preto_1017-23625.avif);
+  }
+ .titulo{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    margin: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow:5px 5px 5px #888888;
+ }
+
+.principal {
+    display:flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+    width: auto;
+    height: 300px;
+}
+.cursos, .contatos{
+    color: #fff;
+    width: 300px;
+    margin: 10px;
+    border-radius:3px;
+}
+.resumo{
+    color: #fff;
+    width: 800px;
+    height: 300px;
+    margin: 10px;
+    border-radius:20px;
+    border:3px solid #fff;
+}
+.cursos_nome, .contatos_nome {
+    color: #fff;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:20px;
+    text-shadow:5px 5px 5px #cababa;
+    border-radius:20px;
+    border:2px solid #fff;
+    
+}
+.cursos_nome_titulo, .contatos_nome_titulo, .button {
+    color: #fff;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:10px;
+    text-shadow:5px 5px 5px #cababa;
+    background: transparent;
+}
+.contatos_whats, .contatos_linkedin, .contatos_email {
+    color: #fff;
+    text-decoration: none;
+    font-size:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow:5px 5px 5px #cababa;
+}
+.cursos_nome_titulo:hover, .contatos_nome_titulo:hover, .contatos_whats:hover,
+ .contatos_linkedin:hover, .contatos_email:hover{
+    font-size: 21px;
+    color:#dfdc27;
+}
